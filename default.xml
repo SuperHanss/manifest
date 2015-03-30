@@ -507,14 +507,14 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" remote="aosp" />
-  <project path="system/core" name="AOSPA-L/android_system_core" remote="github" revision="lollipop-mr1" groups="pdk" />
-  <project path="system/extras" name="AOSPA-L/android_system_extras" remote="github" revision="lollipop-mr1" groups="pdk" />
-  <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
-  <project path="system/media" name="CyanogenMod/android_system_media" remote="cm" revision="staging/cm-12.1" groups="pdk" />
-  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="staging/cm-12.1" groups="pdk" />
-  <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
-  <project path="system/security" name="CyanogenMod/android_system_security" remote="cm" revision="staging/cm-12.1" groups="pdk" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="cm" revision="staging/cm-12.1" groups="pdk" />
+  <project path="system/core" name="AOSPA-L/android_system_core" groups="pdk" />
+  <project path="system/extras" name="AOSPA-L/android_system_extras" groups="pdk" />
+  <project path="system/keymaster" name="AOSPA-L/android_system_keymaster" groups="pdk" />
+  <project path="system/media" name="AOSPA-L/android_system_media" remote="cm" groups="pdk" />
+  <project path="system/netd" name="AOSPA-L/android_system_netd" remote="cm" groups="pdk" />
+  <project path="system/qcom" name="AOSPA-L/android_system_qcom" groups="qcom" />
+  <project path="system/security" name="AOSPA-L/android_system_security" groups="pdk" />
+  <project path="system/vold" name="AOSPA-L/android_system_vold"groups="pdk" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" remote="aosp" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" />
