@@ -8,7 +8,7 @@
 
   <remote  name="github"
            fetch="https://github.com"
-           review="gerrit.paranoidandroid.co" />
+           review="gerrit.aospal.com" />
 
   <remote  name="blobs"
            fetch="https://github.com/TheMuppets" />
@@ -58,14 +58,14 @@
   <project path="device/qcom/sepolicy" name="AOSPA-L/android_device_qcom_sepolicy" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/aac" name="platform/external/aac" groups="pdk" />
+  <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/android-visualizer" name="AOSPA-L/android_external_android-visualizer" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,tradefed" remote="aosp" />
-  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" />
-  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service"  />
-  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library"  />
+  <project path="external/ant-wireless/ant_native" name="AOSPA-L/android_external_ant-wireless_ant_native" />
+  <project path="external/ant-wireless/ant_service" name="AOSPA-L/android_external_ant-wireless_ant_service"  />
+  <project path="external/ant-wireless/antradio-library" name="AOSPA-L/android_external_ant-wireless_antradio-library"  />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/apache-http" name="platform/external/apache-http" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/apache-qp" name="platform/external/apache-qp" groups="pdk-cw-fs" remote="aosp" />
