@@ -243,8 +243,8 @@
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs"/>
-  <project path="external/openssh" name="platform/external/openssh" groups="pdk-cw-fs"/>
+  <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs" remote="aosp" />
+  <project path="external/openssh" name="platform/external/openssh" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/openssl" name="platform/external/openssl" groups="pdk" remote="aosp" />
   <project path="external/oprofile" name="platform/external/oprofile" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" remote="aosp" />
@@ -320,13 +320,13 @@
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/opt/mms" name="AOSPA-L/android_frameworks_opt_mms" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/ims" name="AOSPA-L/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" />
-  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/opt/net/wifi" name="AOSPA-L/android_frameworks_opt_net_wifi" groups="pdk" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" remote="aosp" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/opt/telephony" name="AOSPA-L/android_frameworks_opt_telephony" groups="pdk" />
-  <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" remote="aosp" />
@@ -391,15 +391,15 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp" />
   <project path="ndk" name="platform/ndk" remote="aosp" />
   <project path="packages/apps/AudioFX" name="AOSPA-L/android_packages_apps_AudioFX" />
-  <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
+  <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" remote="aosp" />
   <project path="packages/apps/Bluetooth" name="AOSPA-L/android_packages_apps_Bluetooth" />
   <project path="packages/apps/BluetoothExt" name="AOSPA-L/android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="AOSPA-L/android_packages_apps_Browser" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
+  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" remote="aosp" />
   <project path="packages/apps/Calendar" name="AOSPA-L/android_packages_apps_Calendar" />
   <project path="packages/apps/Camera2" name="AOSPA-L/android_packages_apps_Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="AOSPA-L/android_packages_apps_CellBroadcastReceiver" />
-  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
+  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" remote="aosp" />
   <project path="packages/apps/Contacts" name="AOSPA-L/android_packages_apps_Contacts" />
   <project path="packages/apps/ContactsCommon" name="AOSPA-L/android_packages_apps_ContactsCommon" />
   <project path="packages/apps/DeskClock" name="AOSPA-L/android_packages_apps_Deskclock" />
