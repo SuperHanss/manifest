@@ -38,7 +38,7 @@
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" />
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
-  <project path="development" name="CyanogenMod/android_development" remote="cm" revision="staging/cm-12.1" groups="pdk-cw-fs" />
+  <project path="development" name=""CyanogenMod"AOSPA-L/android_development" groups="pdk-cw-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" remote="aosp" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" remote="aosp" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" remote="aosp" />
@@ -76,7 +76,7 @@
   <project path="external/bluetooth/bluedroid" name="AOSPA-L/android_external_bluetooth_bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" remote="aosp" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="cm-12.0" />
+  <project path="external/busybox" name="AOSPA-L/android_external_busybox" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" remote="aosp" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" remote="aosp" />
@@ -174,7 +174,7 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" remote="aosp" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/jpeg" name="AOSPA-L/android_external_jpeg" remote="github" revision="lollipop-mr1" groups="pdk" />
+  <project path="external/jpeg" name="AOSPA-L/android_external_jpeg" groups="pdk" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" remote="aosp" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs" remote="aosp" />
@@ -263,7 +263,7 @@
   <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" remote="aosp" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" />
-  <project path="external/sepolicy" name="AOSPA-L/android_external_sepolicy" remote="cm" revision="staging/cm-12.1" groups="pdk" />
+  <project path="external/sepolicy" name="AOSPA-L/android_external_sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" remote="aosp" />
   <project path="external/skia" name="AOSPA-L/android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" remote="aosp" />
@@ -281,8 +281,8 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs" remote="aosp" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/tinyalsa" name="AOSPA-L/android_external_tinyalsa" remote="cm" revision="staging/cm-12.1" groups="pdk" />
-  <project path="external/tinycompress" name="AOSPA-L/android_external_tinycompress" remote="cm" revision="staging/cm-12.1" groups="pdk" />
+  <project path="external/tinyalsa" name="AOSPA-L/android_external_tinyalsa" groups="pdk" />
+  <project path="external/tinycompress" name="AOSPA-L/android_external_tinycompress" groups="pdk" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" remote="aosp" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" remote="aosp" />
@@ -298,7 +298,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/av" name="AOSPA-L/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="AOSPA-L/android_frameworks_base" remote="github" revision="lollipop-mr1" groups="pdk-cw-fs" />
+  <project path="frameworks/base" name="AOSPA-L/android_frameworks_base" groups="pdk-cw-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
@@ -307,7 +307,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" remote="aosp" />
-  <project path="frameworks/native" name="AOSPA-L/android_frameworks_native" remote="github" revision="lollipop" groups="pdk" />
+  <project path="frameworks/native" name="AOSPA-L/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" remote="aosp" />
   <project path="frameworks/opt/bluetooth" name="AOSPA-L/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="AOSPA-L/android_frameworks_opt_calendar" groups="pdk-cw-fs" />
@@ -321,11 +321,11 @@
   <project path="frameworks/opt/mms" name="AOSPA-L/android_frameworks_opt_mms" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/ims" name="AOSPA-L/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/net/wifi" name="AOSPA-L/android_frameworks_opt_net_wifi" remote="cm" revision="staging/cm-12.1" groups="pdk" />
+  <project path="frameworks/opt/net/wifi" name="AOSPA-L/android_frameworks_opt_net_wifi" groups="pdk" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" remote="aosp" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" remote="aosp" />
-  <project path="frameworks/opt/telephony" name="AOSPA-L/android_frameworks_opt_telephony" remote="github" revision="lollipop-mr1" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="AOSPA-L/android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" remote="aosp" />
@@ -335,8 +335,8 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" remote="aosp" />
   <project path="hardware/akm" name="platform/hardware/akm" remote="aosp" />
-  <project path="hardware/broadcom/libbt" name="AOSPA-L/android_hardware_broadcom_libbt" remote="cm" revision="staging/cm-12.1" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="AOSPA-L/android_hardware_broadcom_wlan" remote="cm" revision="staging/cm-12.1" groups="broadcom_wlan" />
+  <project path="hardware/broadcom/libbt" name="AOSPA-L/android_hardware_broadcom_libbt" groups="pdk" />
+  <project path="hardware/broadcom/wlan" name="AOSPA-L/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
   <project path="hardware/cm" name="AOSPA-L/android_hardware_cm" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" remote="aosp" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" remote="aosp" />
@@ -353,28 +353,28 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" remote="aosp" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" remote="aosp" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" remote="aosp" />
-  <project path="hardware/libhardware" name="AOSPA-L/android_hardware_libhardware" remote="cm" revision="staging/cm-12.1" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="AOSPA-L/android_hardware_libhardware_legacy" remote="cm" revision="staging/cm-12.1" groups="pdk" />
+  <project path="hardware/libhardware" name="AOSPA-L/android_hardware_libhardware" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="AOSPA-L/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" remote="aosp" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" remote="aosp" />
   <project path="hardware/qcom/audio/default" name="AOSPA-L/android_hardware_qcom_audio" groups="qcom,qcom_audio" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="AOSPA-L/android_hardware_qcom_audio" groups="qcom,qcom_audio" />
-  <project path="hardware/qcom/audio-caf/msm8226" name="AOSPA-L/android_hardware_qcom_audio" groups="qcom,qcom_audio" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="AOSPA-L/android_hardware_qcom_audio" groups="qcom,qcom_audio" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="AOSPA-L/android_hardware_qcom_audio" groups="qcom,qcom_audio" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="AOSPA-L/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lollipop-mr1-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8226" name="AOSPA-L/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lollipop-mr1-caf-8226" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="AOSPA-L/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lollipop-mr1-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="AOSPA-L/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lollipop-mr1-caf-8916" />
   <project path="hardware/qcom/bt" name="AOSPA-L/android_hardware_qcom_bt" groups="qcom" />
-  <project path="hardware/qcom/display" name="AOSPA-L/android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm" revision="staging/cm-12.1" />
-  <project path="hardware/qcom/display-caf/msm8960" name="AOSPA-L/android_hardware_qcom_display" groups="qcom,qcom_display" />
-  <project path="hardware/qcom/display-caf/msm8226" name="AOSPA-L/android_hardware_qcom_display" groups="qcom,qcom_display" />
-  <project path="hardware/qcom/display-caf/msm8974" name="AOSPA-L/android_hardware_qcom_display" groups="qcom,qcom_display" />
-  <project path="hardware/qcom/display-caf/msm8916" name="AOSPA-L/android_hardware_qcom_display" groups="qcom,qcom_display" />
-  <project path="hardware/qcom/gps" name="AOSPA-L/android_hardware_qcom_gps" remote="cm" revision="staging/cm-12.1" groups="qcom" />
-  <project path="hardware/qcom/keymaster" name="AOSPA-L/android_hardware_qcom_keymaster" remote="cm" groups="qcom" revision="cm-12.0" />
+  <project path="hardware/qcom/display" name="AOSPA-L/android_hardware_qcom_display" groups="qcom,qcom_display" />
+  <project path="hardware/qcom/display-caf/msm8960" name="AOSPA-L/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lollipop-mr1-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8226" name="AOSPA-L/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lollipop-mr1-caf-8226" />
+  <project path="hardware/qcom/display-caf/msm8974" name="AOSPA-L/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lollipop-mr1-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8916" name="AOSPA-L/android_hardware_qcom_display" groups="qcom,qcom_display" revision="lollipop-mr1-caf-8916" />
+  <project path="hardware/qcom/gps" name="AOSPA-L/android_hardware_qcom_gps" groups="qcom" />
+  <project path="hardware/qcom/keymaster" name="AOSPA-L/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media/default" name="AOSPA-L/android_hardware_qcom_media" groups="qcom" />
-  <project path="hardware/qcom/media-caf/msm8960" name="AOSPA-L/android_hardware_qcom_media" groups="qcom" />
-  <project path="hardware/qcom/media-caf/msm8226" name="AOSPA-L/android_hardware_qcom_media" groups="qcom" />
-  <project path="hardware/qcom/media-caf/msm8974" name="AOSPA-L/android_hardware_qcom_media" groups="qcom" />
-  <project path="hardware/qcom/media-caf/msm8916" name="AOSPA-L/android_hardware_qcom_media" groups="qcom" />
+  <project path="hardware/qcom/media-caf/msm8960" name="AOSPA-L/android_hardware_qcom_media" groups="qcom" revision="lollipop-mr1-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8226" name="AOSPA-L/android_hardware_qcom_media" groups="qcom" revision="lollipop-mr1-caf-8226" />
+  <project path="hardware/qcom/media-caf/msm8974" name="AOSPA-L/android_hardware_qcom_media" groups="qcom" revision="lollipop-mr1-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8916" name="AOSPA-L/android_hardware_qcom_media" groups="qcom" revision="lollipop-mr1-caf-8916" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" remote="aosp" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" remote="aosp" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" remote="aosp" />
@@ -396,26 +396,26 @@
   <project path="packages/apps/BluetoothExt" name="AOSPA-L/android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="AOSPA-L/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
-  <project path="packages/apps/Calendar" name="AOSPA-L/android_packages_apps_Calendar" remote="cm" revision="staging/cm-12.1" />
-  <project path="packages/apps/Camera2" name="AOSPA-L/android_packages_apps_Camera2" remote="cm" revision="staging/cm-12.1" />
-  <project path="packages/apps/CellBroadcastReceiver" name="AOSPA-L/android_packages_apps_CellBroadcastReceiver" remote="cm" revision="staging/cm-12.1" />
+  <project path="packages/apps/Calendar" name="AOSPA-L/android_packages_apps_Calendar" />
+  <project path="packages/apps/Camera2" name="AOSPA-L/android_packages_apps_Camera2" />
+  <project path="packages/apps/CellBroadcastReceiver" name="AOSPA-L/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
-  <project path="packages/apps/Contacts" name="AOSPA-L/android_packages_apps_Contacts" remote="github" revision="lollipop-mr1" />
+  <project path="packages/apps/Contacts" name="AOSPA-L/android_packages_apps_Contacts" />
   <project path="packages/apps/ContactsCommon" name="AOSPA-L/android_packages_apps_ContactsCommon" />
-  <project path="packages/apps/DeskClock" name="AOSPA-L/android_packages_apps_Deskclock" remote="github" revision="lollipop" />
-  <project path="packages/apps/Dialer" name="AOSPA-L/android_packages_apps_Dialer" remote="github" revision="lollipop" />
-  <project path="packages/apps/Eleven" name="AOSPA-L/android_packages_apps_Eleven" remote="github" revision="lollipop" />
+  <project path="packages/apps/DeskClock" name="AOSPA-L/android_packages_apps_Deskclock" />
+  <project path="packages/apps/Dialer" name="AOSPA-L/android_packages_apps_Dialer" />
+  <project path="packages/apps/Eleven" name="AOSPA-L/android_packages_apps_Eleven" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" remote="aosp" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" remote="aosp" />
   <project path="packages/apps/Gallery2" name="AOSPA-L/android_packages_apps_Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" remote="aosp" />
-  <project path="packages/apps/InCallUI" name="AOSPA-L/android_packages_apps_InCallUI" remote="github" revision="lollipop" />
+  <project path="packages/apps/InCallUI" name="AOSPA-L/android_packages_apps_InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" />
   <project path="packages/apps/Launcher3" name="AOSPA-L/android_packages_apps_Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" remote="aosp" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" remote="aosp" />
   <project path="packages/apps/Mms" name="AOSPA-L/android_packages_apps_Mms" />
-  <project path="packages/apps/Nfc" name="AOSPA-L/android_packages_apps_Nfc" remote="cm" revision="staging/cm-12.1" />
+  <project path="packages/apps/Nfc" name="AOSPA-L/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" remote="aosp" />
   <project path="packages/apps/ParanoidOTA" name="AOSPA-L/android_packages_apps_ParanoidOTA" />
@@ -427,17 +427,16 @@
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" remote="aosp" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" remote="aosp" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" />
-  <project path="packages/apps/Stk" name="AOSPA-L/android_packages_apps_Stk" remote="cm" revision="staging/cm-12.1" />
-  <project path="packages/apps/Tag" name="AOSPA-L/android_packages_apps_Tag" remote="cm" revision="staging/cm-12.1" />
+  <project path="packages/apps/Stk" name="AOSPA-L/android_packages_apps_Stk" />
+  <project path="packages/apps/Tag" name="AOSPA-L/android_packages_apps_Tag" />
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" remote="aosp" />
   <project path="packages/apps/UnifiedEmail" name="AOSPA-L/android_packages_apps_UnifiedEmail" />
   <project path="packages/apps/VoiceDialer" name="AOSPA-L/android_packages_apps_VoiceDialer" />
-  <project path="packages/experimental" name="AOSPA-L/android_packages_experimental" remote="cm" revision="staging/cm-12.1" />
+  <project path="packages/experimental" name="AOSPA-L/android_packages_experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" remote="aosp" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" remote="aosp" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" remote="aosp" />
-  <project path="packages/providers/CalendarProvider" name="AOSPA-L/android_packages_providers_CalendarProvider" remote="cm" revision="staging/cm-12.1" groups="pdk-cw-fs" />
-  <project path="packages/providers/ContactsProvider" name="AOSPA-L/android_packages_providers_ContactsProvider" remote="cm" revision="staging/cm-12.1" groups="pdk-cw-fs" />
+  <project path="packages/providers/CalendarProvider" name="AOSPA-L/android_packages_providers_CalendarProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs" remote="aosp" />
   <project path="packages/providers/MediaProvider" name="AOSPA-L/android_packages_providers_MediaProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" remote="aosp" />
@@ -525,7 +524,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
-  <project path="vendor/pa" name="AOSPA-L/android_vendor_pa" remote="github" revision="lollipop" >
+  <project path="vendor/pa" name="AOSPA-L/android_vendor_pa" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
