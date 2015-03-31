@@ -38,7 +38,7 @@
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" />
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
-  <project path="development" name=""CyanogenMod"AOSPA-L/android_development" groups="pdk-cw-fs" />
+  <project path="development" name="AOSPA-L/android_development" groups="pdk-cw-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" remote="aosp" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" remote="aosp" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" remote="aosp" />
